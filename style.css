@@ -160,19 +160,20 @@ body{
 
   /* rev page */
    #Rev-box p{
-     float: left;
+    float: left;
      width: 250px;
      font-size: larger;
      margin:auto;
      padding: 10px;
    }
    #Rev-box img{
-     float: right;
+     display: flex;
      margin-left: 1rem;
      margin-right: 1rem;
      margin-top: 0px;
      padding: 10px;
-     max-height: 800px;
+     max-height: 700px;
+     max-width: 400px;
    }
    #rev-box-two p{
     float: right;
